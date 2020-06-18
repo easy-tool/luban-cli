@@ -1,11 +1,15 @@
 {
   "name": "@easytools/luban-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli for ffe",
   "main": "index.js",
   "bin": {
     "luban": "./bin/www"
   },
+  "files": [
+    "bin",
+    "dist/**/*.js"
+  ],
   "scripts": {
     "compile": "babel src -d dist",
     "watch": "npm run compile -- --watch"

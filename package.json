@@ -1,6 +1,6 @@
 {
-  "name": "luban-cli",
-  "version": "1.0.0",
+  "name": "@easytools/luban-cli",
+  "version": "0.0.1",
   "description": "cli for ffe",
   "main": "index.js",
   "bin": {
@@ -10,11 +10,19 @@
     "compile": "babel src -d dist",
     "watch": "npm run compile -- --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-tool/luban-cli.git"
+  },
   "keywords": [
     "cli"
   ],
-  "author": "mazongchao",
-  "license": "ISC",
+  "author": "Sean Burt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easy-tool/luban-cli/issues"
+  },
+  "homepage": "https://github.com/easy-tool/luban-cli#readme",
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
